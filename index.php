@@ -21,6 +21,7 @@
 <script>
     function alert(iframe)
     {
+        // Change on update
         current = parseInt(document.getElementById("test").innerHTML)
         document.getElementById("test").innerHTML = current + 1;
     }
